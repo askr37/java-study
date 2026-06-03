@@ -15,17 +15,14 @@ public class 04 {
         
         //標準体重より10kg軽いとき
         if (b - m < -10) {
-            System.out.printf("%.1f\n",m);
             System.out.println("Underweight");
         }
         //標準体重との差が10kg以下のとき
         if (-10 <= b - m && b - m <= 10) {
-            System.out.printf("%.1f\n",m);
             System.out.println("Normal");
         }
         //標準体重より10kg重いとき
         if (10 < b - m) {
-            System.out.printf("%.1f\n",m);
             System.out.println("Overweight");
         }
         
