@@ -1,4 +1,4 @@
-// じゃんけんで勝つ手を出力（グーを1，チョキを2，パーを3）
+// じゃんけんで勝つ手を出力（グーを0，チョキを2，パーを5）
 import java.util.Scanner;
 
 public class 03 {
@@ -7,17 +7,17 @@ public class 03 {
         
         int m = scan.nextInt();
         switch (m) {
-            case 1:
-                System.out.println("3");
+            case 0:
+                System.out.println("5");
                 break;
             case 2:
-                System.out.println("1");
+                System.out.println("0");
                 break;
-            case 3:
+            case 5:
                 System.out.println("2");
                 break;
             default:
-            System.out.println("0");
+            System.out.println("error");
         }
     }
 }
